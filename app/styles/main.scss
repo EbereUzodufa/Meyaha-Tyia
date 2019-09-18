@@ -8,7 +8,12 @@ header, main{
   width: 100%;
 }
 
-header{
+header#app-header{
+  &.only-logo{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   img#header-logo{
     width: 100px;
     height: 20px;
