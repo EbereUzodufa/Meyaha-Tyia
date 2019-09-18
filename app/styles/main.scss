@@ -19,15 +19,20 @@ header, main{
   width: 100%;
 }
 
-header#app-header{
-  &.only-logo{
-    display: flex;
-    flex-wrap: wrap;
-  }
+body#menu-page{
+  display: grid;
+  grid-template-rows: 45px auto;
 
-  img#header-logo{
-    width: 100px;
-    height: 20px;
-    margin: 10px auto;
+  header#app-header{
+    &.only-logo{
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    img#header-logo{
+      width: 100px;
+      height: 20px;
+      margin: 10px auto;
+    }
   }
 }
