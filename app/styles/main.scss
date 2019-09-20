@@ -80,6 +80,7 @@ body#menu-page{
   
             svg{
               fill: $darkGreen;
+              grid-column: 3/4;
             }
   
             p{
@@ -87,6 +88,27 @@ body#menu-page{
               font-size: 12px;
               font-weight: 600;
               color: #000;
+              grid-column: 2/3;
+            }
+
+            img{
+              grid-column: 1/2;
+            }
+          }
+
+          &#donation{
+            a.nav-link{
+              border-radius: 20px;
+              background: $darkGreen;
+              padding: 5px;
+              width: 80%;
+              margin: 10px auto;
+
+              p{
+                color: #ffffff;
+                text-align: center;
+                font-weight: 600;
+              }
             }
           }
         }
