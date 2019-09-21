@@ -261,4 +261,9 @@ body{
       }
     }
   }
+
+  main{
+    border-bottom: 7px solid $darkGreen;
+    min-height: calc(100vh - 45px);
+  }
 }
