@@ -1,0 +1,58 @@
+{
+    "Schools": [
+        {
+            "ID": "1",
+            "Name": "Ahmadu Bello University",
+            "Founded": "1962",
+            "Location": "Zaria, Kaduna State, Northern Nigeria",
+            "motto": "The first duty of every university is the search for and the spread of knowledge and the establishment of the nation.",
+            "website": "https://abu.edu.ng/",
+            "image": "a"
+        },
+        {
+            "ID": "2",
+            "Name": "Bayero University",
+            "Founded": "1964",
+            "Location": "Kano State, Northern Nigeria",
+            "motto": "…. And above every possessor of knowledge, there is the one more learned.",
+            "website": "http://buk.edu.ng/",
+            "image": "a"
+        },
+        {
+            "ID": "3",
+            "Name": "University of Ibadan",
+            "Founded": "1948",
+            "Location": " Ibadan, Oyo State, South West Nigeria",
+            "motto": " Recte sapere fons – For knowledge and sound judgement.",
+            "website": "http://ui.edu.ng/",
+            "image": "a"
+        },
+        {
+            "ID": "4",
+            "Name": "University of Nigeria, Nsukka",
+            "Founded": "1955",
+            "Location": "Nsukka, Enugu State, Eastern Nigeria",
+            "motto": "To restore the dignity of man.",
+            "website": "http://www.unn.edu.ng/",
+            "image": "a"
+        },
+        {
+            "ID": "5",
+            "Name": "University of Lagos",
+            "Founded": "1962",
+            "Location": "Akoka, Lagos State, South West Nigeria",
+            "motto": "In deed and in truth.",
+            "website": "www.unilag.edu.ng",
+            "image": "a"
+        },
+        {
+            "ID": "6",
+            "Name": "University of Port Harcourt",
+            "Founded": "1975",
+            "Location": "Port Harcourt, Rivers State, Eastern Nigeria",
+            "motto": "For enlightenment and self-reliance",
+            "website": "http://www.uniport.edu.ng/",
+            "image": "a"
+        }
+    ]
+}
