@@ -1,58 +1,58 @@
 {
     "Schools": [
         {
-            "ID": "1",
-            "Name": "Ahmadu Bello University",
-            "Founded": "1962",
-            "Location": "Zaria, Kaduna State, Northern Nigeria",
+            "id": "1",
+            "name": "Ahmadu Bello University",
+            "founded": "1962",
+            "location": "Zaria, Kaduna State, Northern Nigeria",
             "motto": "The first duty of every university is the search for and the spread of knowledge and the establishment of the nation.",
             "website": "https://abu.edu.ng/",
-            "image": "a"
+            "image": "abulogo.jpg"
         },
         {
-            "ID": "2",
-            "Name": "Bayero University",
-            "Founded": "1964",
-            "Location": "Kano State, Northern Nigeria",
+            "id": "2",
+            "name": "Bayero University",
+            "founded": "1964",
+            "location": "Kano State, Northern Nigeria",
             "motto": "…. And above every possessor of knowledge, there is the one more learned.",
             "website": "http://buk.edu.ng/",
-            "image": "a"
+            "image": "Bayerouniversitylogo.jpg"
         },
         {
-            "ID": "3",
-            "Name": "University of Ibadan",
-            "Founded": "1948",
-            "Location": " Ibadan, Oyo State, South West Nigeria",
+            "id": "3",
+            "name": "University of Ibadan",
+            "founded": "1948",
+            "location": " Ibadan, Oyo State, South West Nigeria",
             "motto": " Recte sapere fons – For knowledge and sound judgement.",
             "website": "http://ui.edu.ng/",
-            "image": "a"
+            "image": "university_of_ibadan.png"
         },
         {
-            "ID": "4",
-            "Name": "University of Nigeria, Nsukka",
-            "Founded": "1955",
-            "Location": "Nsukka, Enugu State, Eastern Nigeria",
+            "id": "4",
+            "name": "University of Nigeria, Nsukka",
+            "founded": "1955",
+            "location": "Nsukka, Enugu State, Eastern Nigeria",
             "motto": "To restore the dignity of man.",
             "website": "http://www.unn.edu.ng/",
-            "image": "a"
+            "image": "UNN_Logo.jpg"
         },
         {
-            "ID": "5",
-            "Name": "University of Lagos",
-            "Founded": "1962",
-            "Location": "Akoka, Lagos State, South West Nigeria",
+            "id": "5",
+            "name": "University of Lagos",
+            "founded": "1962",
+            "location": "Akoka, Lagos State, South West Nigeria",
             "motto": "In deed and in truth.",
-            "website": "www.unilag.edu.ng",
-            "image": "a"
+            "website": "https://www.unilag.edu.ng",
+            "image": "university-of-lagos.png"
         },
         {
-            "ID": "6",
-            "Name": "University of Port Harcourt",
-            "Founded": "1975",
-            "Location": "Port Harcourt, Rivers State, Eastern Nigeria",
+            "id": "6",
+            "name": "University of Port Harcourt",
+            "founded": "1975",
+            "location": "Port Harcourt, Rivers State, Eastern Nigeria",
             "motto": "For enlightenment and self-reliance",
             "website": "http://www.uniport.edu.ng/",
-            "image": "a"
+            "image": "uniport-logo.png"
         }
     ]
 }
