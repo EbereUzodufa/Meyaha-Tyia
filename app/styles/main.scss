@@ -32,6 +32,10 @@ body{
   grid-template-rows: 45px auto;
   font-family: 'Open Sans', sans-serif;
 
+  &.noScroll{
+    overflow: hidden;
+  }
+
   header#app-header{
     height: 100%;
 
