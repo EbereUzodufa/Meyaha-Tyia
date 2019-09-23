@@ -1,0 +1,44 @@
+{
+    "contacts": [
+        {
+        "name": "address",
+        "title": "address",
+        "link": "347 Fifth Avenue, Suite 1402 New York, NY 10016."
+        },
+        {
+        "name": "facebook",
+        "title": "facebook",
+        "link": "https://web.facebook.com/"
+        },
+        {
+        "name": "linkedin",
+        "title": "linkedin",
+        "link": "https://web.facebook.com/"
+        },
+        {
+        "name": "twitter",
+        "title": "twitter",
+        "link": "https://web.facebook.com/"
+        },
+        {
+        "name": "instagram",
+        "title": "instagram",
+        "link": "https://web.facebook.com/"
+        },
+        {
+        "name": "website",
+        "title": "website",
+        "link": "https://web.facebook.com/"
+        },
+        {
+        "name": "email",
+        "title": "email",
+        "link": "https://web.facebook.com/"
+        },
+        {
+        "name": "tel",
+        "title": "tel",
+        "link": "https://web.facebook.com/"
+        }
+    ]
+}
