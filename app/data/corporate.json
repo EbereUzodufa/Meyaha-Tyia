@@ -1,0 +1,139 @@
+{
+    "Companies": [
+        {
+            "ID": "1",
+            "Name": "ACA",
+            "image": "Aca.png"
+        },
+        {
+            "ID": "2",
+            "Name": "Africa Terminals",
+            "image": "Africa-Terminals.png"
+        },
+        {
+            "ID": "3",
+            "Name": "Balmoral",
+            "image": "balmoral.png"
+        },
+        {
+            "ID": "4",
+            "Name": "Banwo & Ighodalo",
+            "image": "BI.png"
+        },
+        {
+            "ID": "5",
+            "Name": "Bloomfield Law Practice",
+            "image": "bloomfield.png"
+        },
+        {
+            "ID": "6",
+            "Name": "Blue Advisory",
+            "image": "Blue.png"
+        },
+        {
+            "ID": "7",
+            "Name": "Cardinal Stone",
+            "image": "Cardinal.png"
+        },
+        {
+            "ID": "8",
+            "Name": "Chapel Hill Denham",
+            "image": "Chapel-Hill-Denham.png"
+        },
+        {
+            "ID": "9",
+            "Name": "Consonance Investment Managers",
+            "image": "consonance.png"
+        },
+        {
+            "ID": "10",
+            "Name": "Elektron",
+            "image": "elektron.png"
+        },
+        {
+            "ID": "11",
+            "Name": "Fides",
+            "image": "Fides.png"
+        },
+        {
+            "ID": "12",
+            "Name": "G. Elias & Co.",
+            "image": "GElias.png"
+        },
+        {
+            "ID": "13",
+            "Name": "Great Place to Work",
+            "image": "GPTW.png"
+        },
+        {
+            "ID": "14",
+            "Name": "KPMG Nigeria",
+            "image": "KPMG.png"
+        },
+        {
+            "ID": "15",
+            "Name": "Kuramo Capital Management",
+            "image": "Kuramo.png"
+        },
+        {
+            "ID": "16",
+            "Name": "Oake Legal",
+            "image": "Oake-Legal.png"
+        },
+        {
+            "ID": "17",
+            "Name": "Olaniwun Ajayi",
+            "image": "olaniwun.png"
+        },
+        {
+            "ID": "18",
+            "Name": "Productive People",
+            "image": "Productive-People.png"
+        },
+        {
+            "ID": "19",
+            "Name": "Sankore Investments",
+            "image": "Sankore.png"
+        },
+        {
+            "ID": "20",
+            "Name": "Synergy Capital Managers",
+            "image": "Synergy.png"
+        },
+        {
+            "ID": "21",
+            "Name": "Templars",
+            "image": "Templars.png"
+        },
+        {
+            "ID": "22",
+            "Name": "The New Practice",
+            "image": "TNP.png"
+        },
+        {
+            "ID": "23",
+            "Name": "The Nigerian Stock Exchange",
+            "image": "NSE.png"
+        },
+        {
+            "ID": "24",
+            "Name": "Udo Udoma & Belo-Osagie",
+            "image": "Udoma.png"
+        },
+        {
+            "ID": "25",
+            "Name": "Verod Capital Management",
+            "image": "verod.png"
+        },
+        {
+            "ID": "26",
+            "Name": "Viathan Engineering",
+            "image": "viathan.png"
+        },
+        {
+            "ID": "27",
+            "Name": "WAVE Academy",
+            "image": "wave.png"
+        }
+    ]
+}
