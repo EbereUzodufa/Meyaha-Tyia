@@ -18,16 +18,18 @@ const build = (resp) =>{
         contacts.forEach(contact => {
             if (contact.name != 'address') {
                 const imgSrc = parentImgSchSrc + '/' + contact.name+ '.png';
+                let target = '_blank'
                 if(contact.name == 'tel'){
                     contact.link = `tel:${contact.link}`;
                 }
 
                 if(contact.name == 'email'){
-                    contact.link = `mailto:${contact.link}`;
+                    contact.link = '/email.html';
+                    target = '';
                 }
 
                 frag += `
-                    <a class="partner-contact" href="${contact.link}" title = "${contact.name}" target="_blank">
+                    <a class="partner-contact" href="${contact.link}" title = "${contact.name}" target="${target}">
                         <img src="${imgSrc}"  alt="Official logo of ${contact.name}" class="partner-contact__img"/>
                     </a>
                 `
