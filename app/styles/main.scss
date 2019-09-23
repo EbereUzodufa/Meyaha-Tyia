@@ -14,7 +14,7 @@ $darkerGreen: #006F41;
 $lightGreen: #2FDD95;
 
 
-header, main, div.navContainer, body{
+header, main, div.navContainer, body, article, section{
   width: 100%;
   max-width: 100%;
 }
@@ -265,5 +265,58 @@ body{
   main{
     border-bottom: 7px solid $darkGreen;
     min-height: calc(100vh - 45px);
+  }
+
+  // School Page
+
+  section#school-section{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 5px;
+
+    article.page-title-area{
+      margin: 30px auto;
+      display: grid;
+      img, p{
+        margin: 5px auto;
+      }
+      img{
+        height: 35px;
+        width: 35px;
+      }
+
+      p{
+        text-transform: uppercase;
+        font-weight: 600;
+        color: $darkGreen;
+      }
+    }
+
+    article.schools-article{ 
+      display: flex;
+      flex-wrap: wrap;
+      div.partner-schools{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 15px;
+        margin: 30px auto;
+
+        a{
+          display: flex;
+          flex-wrap: wrap;
+          padding: 10px;
+          background: #FFFFFF;
+          box-shadow: 0px 4px 4px rgba(0, 140, 82, 0.25);
+          border-radius: 12px;
+          transition-delay: 500ms;
+          transition: ease-out 1s;
+
+          img{
+            height: 70px;
+            width: 70px;
+          }
+        }
+      }
+    }
   }
 }
