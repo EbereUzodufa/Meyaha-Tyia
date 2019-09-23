@@ -1,5 +1,5 @@
 const fetchData = ()=>{
-    fetch('data/universities.json')
+    fetch('./data/universities.json')
         .then((resp) => resp.json())
         .then(build)
         .catch((err)=>console.log('Error', err));

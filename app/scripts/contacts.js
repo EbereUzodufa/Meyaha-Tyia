@@ -1,5 +1,5 @@
 const fetchData = ()=>{
-    fetch('data/contacts.json')
+    fetch('./data/contacts.json')
         .then((resp) => resp.json())
         .then(build)
         .catch((err)=>console.log('Error', err));
