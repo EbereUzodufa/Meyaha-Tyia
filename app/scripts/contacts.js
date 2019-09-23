@@ -18,6 +18,14 @@ const build = (resp) =>{
         contacts.forEach(contact => {
             if (contact.name != 'address') {
                 const imgSrc = parentImgSchSrc + '/' + contact.name+ '.png';
+                if(contact.name == 'tel'){
+                    contact.link = `tel:${contact.link}`;
+                }
+
+                if(contact.name == 'email'){
+                    contact.link = `mailto:${contact.link}`;
+                }
+
                 frag += `
                     <a class="partner-contact" href="${contact.link}" title = "${contact.name}" target="_blank">
                         <img src="${imgSrc}"  alt="Official logo of ${contact.name}" class="partner-contact__img"/>
@@ -26,10 +34,10 @@ const build = (resp) =>{
             }
         });
         const address = contacts.find(c=>c.name=='address');
-        const p = document.createElement('p');
-        p.innerHTML = address.link;
-        p.classList.add('nhef-address');
-        article.append(p);
+        const h2 = document.createElement('h2');
+        h2.innerHTML = address.link;
+        h2.classList.add('nhef-address');
+        article.append(h2);
         div.innerHTML =frag;
         article.append(div);
     }
